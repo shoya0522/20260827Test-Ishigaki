@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainUI.uss?fileID=7433441132597879392&amp;guid=0ece4a4f8c923b44a86e487a77f0fc73&amp;type=3#MainUI"/>
+    <ui:VisualElement name="Root" style="flex-grow: 1;">
+        <ui:VisualElement name="CardArea" style="flex-grow: 1;">
+            <ui:Label text="Label" name="CardNameLabel"/>
+            <ui:Label text="Label" name="OffenseLabel"/>
+            <ui:Label text="Label" name="DefenseLabel"/>
+            <ui:Label text="Label" name="DescriptionLabel"/>
+        </ui:VisualElement>
+        <ui:Button text="Button" name="DrawButton"/>
+    </ui:VisualElement>
+</ui:UXML>

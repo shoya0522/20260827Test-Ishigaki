@@ -1,0 +1,49 @@
+:root {
+    
+}
+
+#CardArea {
+    width: 720px;
+    height: 900px;
+
+    align-self: center;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#CardNameLabel {
+    font-size: 24px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    margin-bottom: 8px;
+}
+
+#OffenseLabel,
+#DefenseLabel {
+    font-size: 18px;
+    -unity-text-align: middle-center;
+    margin-bottom: 4px;
+}
+
+#DescriptionLabel {
+    font-size: 14px;
+    white-space: normal;
+    -unity-text-align: middle-center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#DrawButton {
+    width: 220px;
+    height: 55px;
+
+    font-size: 20px;
+
+    align-self: center;
+}
+
