@@ -1,19 +1,21 @@
 :root {
-    
 }
 
 #CardArea {
     width: 720px;
     height: 900px;
-
     align-self: center;
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 20px;
+    bottom: -60px;
+    background-color: rgb(127, 242, 255);
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 #CardNameLabel {
@@ -41,9 +43,7 @@
 #DrawButton {
     width: 220px;
     height: 55px;
-
     font-size: 20px;
-
     align-self: center;
+    top: -170px;
 }
-
